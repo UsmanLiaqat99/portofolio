@@ -1,3 +1,3 @@
 # portofolio
 
-live demo: https://usmanliaqat-portofolio.web.app/
+live: https://usmanliaqat-portofolio.web.app/
