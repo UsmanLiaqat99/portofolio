@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "usmanliaqat-portofolio",
-    "dist": "usmanliaqat-portofolio"
+    "dist": "usmanliaqat-portofolio",
+    "public": "usmanliaqat-portofolio"
   },
   "targets": {},
   "etags": {}
