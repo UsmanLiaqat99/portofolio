@@ -745,9 +745,9 @@
                         <div class="contact__card">
                             <i class='bx bx-mail-send contact__card-icon'></i>
                             <h3 class="contact__card-title">Email</h3>
-                            <span class="contact__card-data">chusmanliaqat1020@gmail.com</span>
+                            <span class="contact__card-data">support@usman-liaqat.com </span>
 
-                            <a href="mailto:chusmanliaqat1020@gmail.com" target="_blank" class="contact__button">
+                            <a href="mailto:support@usman-liaqat.com " target="_blank" class="contact__button">
                                 Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -775,10 +775,10 @@
                     </div>
                 </div>
 
-                <div class="contact__content">
+                <!-- <div class="contact__content">
                     <h3 class="contact__title">Write me your project</h3>
 
-                    <form name="contactForm" action="https://formsubmit.co/chusmanliaqat1020@gmail.com" method="POST"
+                    <form name="contactForm"  method="POST"
                         class="contact__form">
                         <div class="contact__form-div">
                             <label for="" class="contact__form-tag">Name</label>
@@ -787,7 +787,7 @@
                         </div>
 
                         <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Mail</label>
+                            <label for="" class="contact__form-tag">Message</label>
                             <input name="Email" type="email" placeholder="Insert your email" class="contact__form-input"
                                 id="email" required>
                         </div>
@@ -798,9 +798,9 @@
                                 class="contact__form-input" required></textarea>
                         </div>
 
-                        <button class="button" type="submit">Send Message</button>
+                        <button class="button" type="submit" onclick="submit()">Send Message</button>
                     </form>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
@@ -855,10 +855,42 @@
     <script src="asset/js/main.js"></script>
 </body>
 
+<!-- <script>
+     async function submit() {
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var message = $('#message').val();
+
+         await fetch("https://formsubmit.co/ajax/support@usman-liaqat.com ", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+          }),
+        }).then((res) => {
+          if (res.status === 200) {
+            this.alert = "Message send successfully!";
+            console.log("Message send successfully!");
+            // location.reload();
+          } else {
+            this.alert = "Something went wrong! Message not send Please try again later";
+            console.log("Something went wrong! Message not send Please try again later");
+          }
+        });
+      
+    }
+</script> -->
+
 <!-- Link Script for sending Mail
 <script src="asset/js/jquery.min.js"></script>
 
 <script src="asset/js/smtp.js"></script>
+
 
 <script>
     function sendmail() {
