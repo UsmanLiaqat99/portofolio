@@ -1,3 +1,3 @@
 # portofolio
 
-live: https://usmanliaqat-portofolio.web.app/
+live: https://usman-liaqat.com
